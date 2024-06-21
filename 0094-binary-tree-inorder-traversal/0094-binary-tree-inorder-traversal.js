@@ -15,7 +15,6 @@ function dfs(root, ans) {
 
   dfs(root.left, ans);
 
-  // 中序
   ans.push(root.val);
   
   dfs(root.right, ans);
